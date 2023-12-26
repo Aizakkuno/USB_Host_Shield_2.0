@@ -186,6 +186,8 @@ enum ButtonEnum {
         /** Switch Pro Controller */
         CAPTURE,
         /**@}*/
+
+        NONE,
 };
 
 inline constexpr int8_t ButtonIndex(ButtonEnum key) {
